@@ -1,0 +1,128 @@
+2021-05-01 13:34:06.951 +05:30 [INF] ******************************************
+2021-05-01 13:34:06.996 +05:30 [INF] 
+New Test Cycle :
+2021-05-01 13:34:07.010 +05:30 [INF] [Feature] : Delete API Call
+2021-05-01 13:34:07.050 +05:30 [INF] [Scenario Start] : Delete a User Successfully
+2021-05-01 13:34:07.079 +05:30 [INF] [Step] : I have made a get call using id to delete a user
+2021-05-01 13:34:07.856 +05:30 [INF] [Step] : I should recieve valid statuscode as below
+2021-05-01 13:34:07.888 +05:30 [INF] [scenario completed]
+2021-05-01 13:34:07.889 +05:30 [INF] ------------------------------------------------------------
+2021-05-01 13:34:07.904 +05:30 [INF] [Feature completed] 
+2021-05-01 13:34:07.904 +05:30 [INF] ==============================================================
+2021-05-01 13:34:07.905 +05:30 [INF] [Feature] : Get user calls
+2021-05-01 13:34:07.907 +05:30 [INF] [Scenario Start] : Get List of users
+2021-05-01 13:34:07.907 +05:30 [INF] [Step] : I have made a get call to list all users
+2021-05-01 13:34:08.073 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for all user
+2021-05-01 13:34:08.084 +05:30 [INF] [scenario completed]
+2021-05-01 13:34:08.085 +05:30 [INF] ------------------------------------------------------------
+2021-05-01 13:34:08.089 +05:30 [INF] [Scenario Start] : Get single user
+2021-05-01 13:34:08.090 +05:30 [INF] [Step] : I have made a get call using id
+2021-05-01 13:34:08.221 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for requested user
+2021-05-01 13:34:08.223 +05:30 [INF] [scenario completed]
+2021-05-01 13:34:08.223 +05:30 [INF] ------------------------------------------------------------
+2021-05-01 13:34:08.224 +05:30 [INF] [Feature completed] 
+2021-05-01 13:34:08.224 +05:30 [INF] ==============================================================
+2021-05-01 13:34:08.224 +05:30 [INF] [Feature] : Register and Create calls
+2021-05-01 13:34:08.226 +05:30 [INF] [Scenario Start] : Create a User
+2021-05-01 13:34:08.226 +05:30 [INF] [Step] : I have entered name, job for new user
+2021-05-01 13:34:08.228 +05:30 [INF] [Step] : made a post call to create user
+2021-05-01 13:34:08.677 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for new user
+2021-05-01 13:34:08.684 +05:30 [INF] [scenario completed]
+2021-05-01 13:34:08.685 +05:30 [INF] ------------------------------------------------------------
+2021-05-01 13:34:08.692 +05:30 [INF] [Scenario Start] : Register a User Successfully
+2021-05-01 13:34:08.692 +05:30 [INF] [Step] : I have entered email, password to register
+2021-05-01 13:34:08.694 +05:30 [INF] [Step] : made a post call to register user
+2021-05-01 13:34:09.600 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for registered user
+2021-05-01 13:34:09.803 +05:30 [ERR] NUnit.Framework.AssertionException:   Status code is not as expected
+  Expected: 200
+  But was:  400
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at Automation.API.Framework.Steps.Register_Create.ThenIShouldRecieveValidStatuscodeAndResponsefileForRegisteredUser(Table table) in C:\Users\Dell\Documents\GitHub\BDD-Specflow-and-RestSharp\Automation.API.Framework-master\Automation.API.Framework\Steps\Register_Create.cs:line 39
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2021-05-01 13:34:09.803 +05:30 [ERR] nunit.framework
+2021-05-01 13:34:09.876 +05:30 [INF] [scenario completed]
+2021-05-01 13:34:09.876 +05:30 [INF] ------------------------------------------------------------
+2021-05-01 13:34:09.880 +05:30 [INF] [Feature completed] 
+2021-05-01 13:34:09.880 +05:30 [INF] ==============================================================
+2021-05-01 13:34:09.880 +05:30 [INF] [Feature] : Update user api call
+2021-05-01 13:34:09.885 +05:30 [INF] [Scenario Start] : Update a User Successfully
+2021-05-01 13:34:09.885 +05:30 [INF] [Step] : I have entered email, password to update and made a put call
+2021-05-01 13:34:10.327 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for updated user
+2021-05-01 13:34:10.336 +05:30 [INF] [scenario completed]
+2021-05-01 13:34:10.337 +05:30 [INF] ------------------------------------------------------------
+2021-05-01 13:34:10.359 +05:30 [INF] [Feature completed] 
+2021-05-01 13:34:10.360 +05:30 [INF] ==============================================================
+2021-05-01 13:34:10.395 +05:30 [INF] 
+******************************************
+2021-05-01 13:34:10.395 +05:30 [INF] 
+End of Test Cycle :
+2021-05-01 13:38:05.037 +05:30 [INF] ******************************************
+2021-05-01 13:38:05.075 +05:30 [INF] 
+New Test Cycle :
+2021-05-01 13:38:05.084 +05:30 [INF] [Feature] : Delete API Call
+2021-05-01 13:38:05.125 +05:30 [INF] [Scenario Start] : Delete a User Successfully
+2021-05-01 13:38:05.155 +05:30 [INF] [Step] : I have made a get call using id to delete a user
+2021-05-01 13:38:06.024 +05:30 [INF] [Step] : I should recieve valid statuscode as below
+2021-05-01 13:38:06.101 +05:30 [INF] [scenario completed]
+2021-05-01 13:38:06.101 +05:30 [INF] ------------------------------------------------------------
+2021-05-01 13:38:06.142 +05:30 [INF] [Feature completed] 
+2021-05-01 13:38:06.142 +05:30 [INF] ==============================================================
+2021-05-01 13:38:06.143 +05:30 [INF] [Feature] : Get user calls
+2021-05-01 13:38:06.148 +05:30 [INF] [Scenario Start] : Get List of users
+2021-05-01 13:38:06.149 +05:30 [INF] [Step] : I have made a get call to list all users
+2021-05-01 13:38:06.326 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for all user
+2021-05-01 13:38:06.335 +05:30 [INF] [scenario completed]
+2021-05-01 13:38:06.335 +05:30 [INF] ------------------------------------------------------------
+2021-05-01 13:38:06.337 +05:30 [INF] [Scenario Start] : Get single user
+2021-05-01 13:38:06.337 +05:30 [INF] [Step] : I have made a get call using id
+2021-05-01 13:38:06.433 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for requested user
+2021-05-01 13:38:06.437 +05:30 [INF] [scenario completed]
+2021-05-01 13:38:06.437 +05:30 [INF] ------------------------------------------------------------
+2021-05-01 13:38:06.439 +05:30 [INF] [Feature completed] 
+2021-05-01 13:38:06.439 +05:30 [INF] ==============================================================
+2021-05-01 13:38:06.439 +05:30 [INF] [Feature] : Register and Create calls
+2021-05-01 13:38:06.443 +05:30 [INF] [Scenario Start] : Create a User
+2021-05-01 13:38:06.443 +05:30 [INF] [Step] : I have entered name, job for new user
+2021-05-01 13:38:06.446 +05:30 [INF] [Step] : made a post call to create user
+2021-05-01 13:38:06.928 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for new user
+2021-05-01 13:38:06.932 +05:30 [INF] [scenario completed]
+2021-05-01 13:38:06.932 +05:30 [INF] ------------------------------------------------------------
+2021-05-01 13:38:06.935 +05:30 [INF] [Scenario Start] : Register a User Successfully
+2021-05-01 13:38:06.935 +05:30 [INF] [Step] : I have entered email, password to register
+2021-05-01 13:38:06.938 +05:30 [INF] [Step] : made a post call to register user
+2021-05-01 13:38:07.813 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for registered user
+2021-05-01 13:38:07.908 +05:30 [ERR] NUnit.Framework.AssertionException:   Status code is not as expected
+  Expected: 200
+  But was:  400
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at Automation.API.Framework.Steps.Register_Create.ThenIShouldRecieveValidStatuscodeAndResponsefileForRegisteredUser(Table table) in C:\Users\Dell\Documents\GitHub\BDD-Specflow-and-RestSharp\Automation.API.Framework-master\Automation.API.Framework\Steps\Register_Create.cs:line 39
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2021-05-01 13:38:07.908 +05:30 [ERR] nunit.framework
+2021-05-01 13:38:07.940 +05:30 [INF] [scenario completed]
+2021-05-01 13:38:07.940 +05:30 [INF] ------------------------------------------------------------
+2021-05-01 13:38:07.942 +05:30 [INF] [Feature completed] 
+2021-05-01 13:38:07.942 +05:30 [INF] ==============================================================
+2021-05-01 13:38:07.942 +05:30 [INF] [Feature] : Update user api call
+2021-05-01 13:38:07.945 +05:30 [INF] [Scenario Start] : Update a User Successfully
+2021-05-01 13:38:07.945 +05:30 [INF] [Step] : I have entered email, password to update and made a put call
+2021-05-01 13:38:08.386 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for updated user
+2021-05-01 13:38:08.392 +05:30 [INF] [scenario completed]
+2021-05-01 13:38:08.392 +05:30 [INF] ------------------------------------------------------------
+2021-05-01 13:38:08.397 +05:30 [INF] [Feature completed] 
+2021-05-01 13:38:08.397 +05:30 [INF] ==============================================================
+2021-05-01 13:38:08.414 +05:30 [INF] 
+******************************************
+2021-05-01 13:38:08.414 +05:30 [INF] 
+End of Test Cycle :

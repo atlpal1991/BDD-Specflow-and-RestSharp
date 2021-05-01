@@ -9611,11 +9611,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\Documents\\Automation.API.Framework-master\\Automation.API.Framework\\Automation.API.Framework.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Documents\\GitHub\\BDD-Specflow-and-RestSharp\\Automation.API.Framework-master\\Automation.API.Framework\\Automation.API.Framework.csproj",
       "projectName": "Automation.API.Framework",
-      "projectPath": "C:\\Users\\Dell\\Documents\\Automation.API.Framework-master\\Automation.API.Framework\\Automation.API.Framework.csproj",
+      "projectPath": "C:\\Users\\Dell\\Documents\\GitHub\\BDD-Specflow-and-RestSharp\\Automation.API.Framework-master\\Automation.API.Framework\\Automation.API.Framework.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\Documents\\Automation.API.Framework-master\\Automation.API.Framework\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\Documents\\GitHub\\BDD-Specflow-and-RestSharp\\Automation.API.Framework-master\\Automation.API.Framework\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

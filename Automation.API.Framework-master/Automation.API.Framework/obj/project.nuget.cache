@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jMAAa4H40zJdVV4zfICTMr+cbDWNo2XdfyohTZnQCQGrrhpNqGlknIuydpMPtPu0UwMSwbobF8Qr1SQD7pNoaw==",
+  "dgSpecHash": "wO37dNFL9hRaLFR/RnTufs5DRdeRrAhkzmXbBvN7f5WVp7mqTZgrdOIbQn+7z+vuQH8rDnGNhyuJIBjN0H1U2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\Documents\\Automation.API.Framework-master\\Automation.API.Framework\\Automation.API.Framework.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\Documents\\GitHub\\BDD-Specflow-and-RestSharp\\Automation.API.Framework-master\\Automation.API.Framework\\Automation.API.Framework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\automation.framework\\1.0.3\\automation.framework.1.0.3.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\bodi\\1.4.1\\bodi.1.4.1.nupkg.sha512",
