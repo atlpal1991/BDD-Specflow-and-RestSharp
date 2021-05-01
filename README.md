@@ -11,3 +11,10 @@ Steps : This folder contains steps definitions corresponsing to each feature fil
 JsonResponses : Here we have stored json response for get calls which are being used to compare with API responses.
 Common Calls : This are the methods calling each api.
 Common : Any common logic being used across application.
+
+
+Reprot Location : bin\Debug\netcoreapp3.0\Reports\
+
+Report Format : 
+![image](https://user-images.githubusercontent.com/42684033/116775524-f9e4f680-aa80-11eb-9419-8e1eb1b66b50.png)
+
