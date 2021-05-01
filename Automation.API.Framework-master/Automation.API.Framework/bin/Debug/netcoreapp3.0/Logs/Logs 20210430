@@ -1,0 +1,396 @@
+2021-04-30 11:14:16.993 +05:30 [INF] ******************************************
+2021-04-30 11:14:17.027 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:14:17.036 +05:30 [INF] [Feature] : Delete API Call
+2021-04-30 11:14:19.752 +05:30 [INF] [Scenario Start] : Delete a User Successfully
+2021-04-30 11:14:26.541 +05:30 [INF] [Step] : I have made a get call using id to delete a user
+2021-04-30 11:15:25.654 +05:30 [INF] ******************************************
+2021-04-30 11:15:25.693 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:15:25.703 +05:30 [INF] [Feature] : Delete API Call
+2021-04-30 11:15:28.458 +05:30 [INF] [Scenario Start] : Delete a User Successfully
+2021-04-30 11:15:33.043 +05:30 [INF] [Step] : I have made a get call using id to delete a user
+2021-04-30 11:16:54.921 +05:30 [INF] [Step] : I should recieve valid statuscode as below
+2021-04-30 11:17:21.640 +05:30 [INF] [scenario completed]
+2021-04-30 11:17:21.641 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:17:21.702 +05:30 [INF] [Feature completed] 
+2021-04-30 11:17:21.702 +05:30 [INF] ==============================================================
+2021-04-30 11:17:59.224 +05:30 [INF] ******************************************
+2021-04-30 11:17:59.253 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:17:59.260 +05:30 [INF] [Feature] : Delete API Call
+2021-04-30 11:17:59.290 +05:30 [INF] [Scenario Start] : Delete a User Successfully
+2021-04-30 11:17:59.314 +05:30 [INF] [Step] : I have made a get call using id to delete a user
+2021-04-30 11:18:00.091 +05:30 [INF] [Step] : I should recieve valid statuscode as below
+2021-04-30 11:18:00.122 +05:30 [INF] [scenario completed]
+2021-04-30 11:18:00.122 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:18:00.163 +05:30 [INF] [Feature completed] 
+2021-04-30 11:18:00.163 +05:30 [INF] ==============================================================
+2021-04-30 11:18:00.163 +05:30 [INF] [Feature] : Get user calls
+2021-04-30 11:18:00.166 +05:30 [INF] [Scenario Start] : Get List of users
+2021-04-30 11:18:00.166 +05:30 [INF] [Step] : I have made a get call to list all users
+2021-04-30 11:18:00.482 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for all user
+2021-04-30 11:18:00.498 +05:30 [INF] [scenario completed]
+2021-04-30 11:18:00.498 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:18:00.500 +05:30 [INF] [Scenario Start] : Get single user
+2021-04-30 11:18:00.501 +05:30 [INF] [Step] : I have made a get call using id
+2021-04-30 11:18:00.645 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for requested user
+2021-04-30 11:18:00.647 +05:30 [INF] [scenario completed]
+2021-04-30 11:18:00.647 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:18:00.648 +05:30 [INF] [Feature completed] 
+2021-04-30 11:18:00.648 +05:30 [INF] ==============================================================
+2021-04-30 11:18:00.648 +05:30 [INF] [Feature] : Register and Create calls
+2021-04-30 11:18:00.650 +05:30 [INF] [Scenario Start] : Create a User
+2021-04-30 11:18:00.650 +05:30 [INF] [Step] : I have entered name, job for new user
+2021-04-30 11:18:00.652 +05:30 [INF] [Step] : made a post call to create user
+2021-04-30 11:18:01.076 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for new user
+2021-04-30 11:18:01.083 +05:30 [INF] [scenario completed]
+2021-04-30 11:18:01.083 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:18:01.087 +05:30 [INF] [Scenario Start] : Register a User Successfully
+2021-04-30 11:18:01.087 +05:30 [INF] [Step] : I have entered email, password to register
+2021-04-30 11:18:01.089 +05:30 [INF] [Step] : made a post call to register user
+2021-04-30 11:18:01.923 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for registered user
+2021-04-30 11:18:02.034 +05:30 [ERR] System.InvalidCastException: Unable to cast object of type 'System.String' to type 'RestSharp.IRestResponse'.
+   at Automation.API.Framework.Steps.Register_Create.ThenIShouldRecieveValidStatuscodeAndResponsefileForRegisteredUser(Table table) in C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\Steps\Register_Create.cs:line 38
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2021-04-30 11:18:02.034 +05:30 [ERR] Automation.API.Framework
+2021-04-30 11:18:02.067 +05:30 [INF] [scenario completed]
+2021-04-30 11:18:02.067 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:18:02.069 +05:30 [INF] [Feature completed] 
+2021-04-30 11:18:02.069 +05:30 [INF] ==============================================================
+2021-04-30 11:18:02.070 +05:30 [INF] [Feature] : Update user api call
+2021-04-30 11:18:02.072 +05:30 [INF] [Scenario Start] : Update a User Successfully
+2021-04-30 11:18:02.072 +05:30 [INF] [Step] : I have entered email, password to update and made a put call
+2021-04-30 11:18:02.453 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for updated user
+2021-04-30 11:18:02.473 +05:30 [ERR] System.Collections.Generic.KeyNotFoundException: The given key 'response' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Automation.API.Framework.Steps.UpdateUser_Steps.ThenIShouldRecieveValidStatuscodeAndResponsefileForUpdatedUser(Table table) in C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\Steps\UpdateUser_Steps.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2021-04-30 11:18:02.474 +05:30 [ERR] System.Private.CoreLib
+2021-04-30 11:18:02.478 +05:30 [INF] [scenario completed]
+2021-04-30 11:18:02.479 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:18:02.486 +05:30 [INF] [Feature completed] 
+2021-04-30 11:18:02.486 +05:30 [INF] ==============================================================
+2021-04-30 11:18:02.501 +05:30 [INF] 
+******************************************
+2021-04-30 11:18:02.501 +05:30 [INF] 
+End of Test Cycle :
+2021-04-30 11:20:53.505 +05:30 [INF] ******************************************
+2021-04-30 11:20:53.534 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:20:53.542 +05:30 [INF] [Feature] : Register and Create calls
+2021-04-30 11:20:53.569 +05:30 [INF] [Scenario Start] : Register a User Successfully
+2021-04-30 11:20:53.589 +05:30 [INF] [Step] : I have entered email, password to register
+2021-04-30 11:20:53.615 +05:30 [INF] [Step] : made a post call to register user
+2021-04-30 11:20:54.579 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for registered user
+2021-04-30 11:20:54.688 +05:30 [ERR] NUnit.Framework.AssertionException:   Status code is not as expected
+  Expected: 200
+  But was:  400
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at Automation.API.Framework.Steps.Register_Create.ThenIShouldRecieveValidStatuscodeAndResponsefileForRegisteredUser(Table table) in C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\Steps\Register_Create.cs:line 39
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2021-04-30 11:20:54.688 +05:30 [ERR] nunit.framework
+2021-04-30 11:20:54.727 +05:30 [INF] [scenario completed]
+2021-04-30 11:20:54.727 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:20:54.746 +05:30 [INF] [Feature completed] 
+2021-04-30 11:20:54.746 +05:30 [INF] ==============================================================
+2021-04-30 11:20:54.756 +05:30 [INF] 
+******************************************
+2021-04-30 11:20:54.756 +05:30 [INF] 
+End of Test Cycle :
+2021-04-30 11:21:24.392 +05:30 [INF] ******************************************
+2021-04-30 11:21:24.430 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:21:24.439 +05:30 [INF] [Feature] : Register and Create calls
+2021-04-30 11:21:27.418 +05:30 [INF] [Scenario Start] : Register a User Successfully
+2021-04-30 11:21:28.540 +05:30 [INF] [Step] : I have entered email, password to register
+2021-04-30 11:21:30.759 +05:30 [INF] [Step] : made a post call to register user
+2021-04-30 11:21:37.761 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for registered user
+2021-04-30 11:22:40.867 +05:30 [INF] ******************************************
+2021-04-30 11:22:40.905 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:22:40.917 +05:30 [INF] [Feature] : Register and Create calls
+2021-04-30 11:22:43.214 +05:30 [INF] [Scenario Start] : Register a User Successfully
+2021-04-30 11:22:45.043 +05:30 [INF] [Step] : I have entered email, password to register
+2021-04-30 11:22:54.642 +05:30 [INF] [Step] : made a post call to register user
+2021-04-30 11:24:10.274 +05:30 [INF] ******************************************
+2021-04-30 11:24:10.304 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:24:10.314 +05:30 [INF] [Feature] : Register and Create calls
+2021-04-30 11:24:12.063 +05:30 [INF] [Scenario Start] : Register a User Successfully
+2021-04-30 11:24:17.193 +05:30 [INF] [Step] : I have entered email, password to register
+2021-04-30 11:24:21.306 +05:30 [INF] [Step] : made a post call to register user
+2021-04-30 11:27:38.735 +05:30 [INF] ******************************************
+2021-04-30 11:27:38.771 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:27:38.780 +05:30 [INF] [Feature] : Update user api call
+2021-04-30 11:27:38.813 +05:30 [INF] [Scenario Start] : Update a User Successfully
+2021-04-30 11:27:38.837 +05:30 [INF] [Step] : I have entered email, password to update and made a put call
+2021-04-30 11:27:39.919 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for updated user
+2021-04-30 11:27:46.461 +05:30 [ERR] System.Collections.Generic.KeyNotFoundException: The given key 'response' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Automation.API.Framework.Steps.UpdateUser_Steps.ThenIShouldRecieveValidStatuscodeAndResponsefileForUpdatedUser(Table table) in C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\Steps\UpdateUser_Steps.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2021-04-30 11:27:47.500 +05:30 [ERR] System.Private.CoreLib
+2021-04-30 11:29:19.028 +05:30 [INF] ******************************************
+2021-04-30 11:29:19.062 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:29:19.071 +05:30 [INF] [Feature] : Update user api call
+2021-04-30 11:29:19.103 +05:30 [INF] [Scenario Start] : Update a User Successfully
+2021-04-30 11:29:19.127 +05:30 [INF] [Step] : I have entered email, password to update and made a put call
+2021-04-30 11:29:19.986 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for updated user
+2021-04-30 11:29:46.424 +05:30 [INF] ******************************************
+2021-04-30 11:29:46.457 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:29:46.467 +05:30 [INF] [Feature] : Update user api call
+2021-04-30 11:30:11.707 +05:30 [INF] [Scenario Start] : Update a User Successfully
+2021-04-30 11:30:12.591 +05:30 [INF] [Step] : I have entered email, password to update and made a put call
+2021-04-30 11:30:19.416 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for updated user
+2021-04-30 11:31:02.543 +05:30 [INF] ******************************************
+2021-04-30 11:31:02.581 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:31:02.590 +05:30 [INF] [Feature] : Update user api call
+2021-04-30 11:31:11.386 +05:30 [INF] [Scenario Start] : Update a User Successfully
+2021-04-30 11:31:16.017 +05:30 [INF] [Step] : I have entered email, password to update and made a put call
+2021-04-30 11:32:56.832 +05:30 [INF] ******************************************
+2021-04-30 11:32:56.865 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:32:56.876 +05:30 [INF] [Feature] : Update user api call
+2021-04-30 11:32:56.913 +05:30 [INF] [Scenario Start] : Update a User Successfully
+2021-04-30 11:32:56.945 +05:30 [INF] [Step] : I have entered email, password to update and made a put call
+2021-04-30 11:32:57.748 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for updated user
+2021-04-30 11:32:57.798 +05:30 [ERR] System.Collections.Generic.KeyNotFoundException: The given key 'response' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Automation.API.Framework.Steps.UpdateUser_Steps.ThenIShouldRecieveValidStatuscodeAndResponsefileForUpdatedUser(Table table) in C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\Steps\UpdateUser_Steps.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2021-04-30 11:32:57.798 +05:30 [ERR] System.Private.CoreLib
+2021-04-30 11:32:57.834 +05:30 [INF] [scenario completed]
+2021-04-30 11:32:57.834 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:32:57.851 +05:30 [INF] [Feature completed] 
+2021-04-30 11:32:57.852 +05:30 [INF] ==============================================================
+2021-04-30 11:32:57.861 +05:30 [INF] 
+******************************************
+2021-04-30 11:32:57.861 +05:30 [INF] 
+End of Test Cycle :
+2021-04-30 11:33:17.234 +05:30 [INF] ******************************************
+2021-04-30 11:33:17.264 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:33:17.273 +05:30 [INF] [Feature] : Update user api call
+2021-04-30 11:33:27.912 +05:30 [INF] [Scenario Start] : Update a User Successfully
+2021-04-30 11:33:31.641 +05:30 [INF] [Step] : I have entered email, password to update and made a put call
+2021-04-30 11:37:51.482 +05:30 [INF] ******************************************
+2021-04-30 11:37:51.508 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:37:51.516 +05:30 [INF] [Feature] : Update user api call
+2021-04-30 11:37:51.541 +05:30 [INF] [Scenario Start] : Update a User Successfully
+2021-04-30 11:37:51.566 +05:30 [INF] [Step] : I have entered email, password to update and made a put call
+2021-04-30 11:37:52.451 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for updated user
+2021-04-30 11:37:52.499 +05:30 [ERR] System.Collections.Generic.KeyNotFoundException: The given key 'response' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Automation.API.Framework.Steps.UpdateUser_Steps.ThenIShouldRecieveValidStatuscodeAndResponsefileForUpdatedUser(Table table) in C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\Steps\UpdateUser_Steps.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2021-04-30 11:37:52.499 +05:30 [ERR] System.Private.CoreLib
+2021-04-30 11:37:52.534 +05:30 [INF] [scenario completed]
+2021-04-30 11:37:52.535 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:37:52.552 +05:30 [INF] [Feature completed] 
+2021-04-30 11:37:52.552 +05:30 [INF] ==============================================================
+2021-04-30 11:37:52.562 +05:30 [INF] 
+******************************************
+2021-04-30 11:37:52.562 +05:30 [INF] 
+End of Test Cycle :
+2021-04-30 11:38:07.789 +05:30 [INF] ******************************************
+2021-04-30 11:38:07.818 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:38:07.829 +05:30 [INF] [Feature] : Update user api call
+2021-04-30 11:38:11.124 +05:30 [INF] [Scenario Start] : Update a User Successfully
+2021-04-30 11:38:19.057 +05:30 [INF] [Step] : I have entered email, password to update and made a put call
+2021-04-30 11:40:15.055 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for updated user
+2021-04-30 11:44:18.631 +05:30 [INF] ******************************************
+2021-04-30 11:44:18.665 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:44:18.673 +05:30 [INF] [Feature] : Update user api call
+2021-04-30 11:44:18.705 +05:30 [INF] [Scenario Start] : Update a User Successfully
+2021-04-30 11:44:18.728 +05:30 [INF] [Step] : I have entered email, password to update and made a put call
+2021-04-30 11:44:19.568 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for updated user
+2021-04-30 11:44:19.628 +05:30 [ERR] System.InvalidCastException: Unable to cast object of type 'System.String' to type 'RestSharp.IRestResponse'.
+   at Automation.API.Framework.Steps.UpdateUser_Steps.ThenIShouldRecieveValidStatuscodeAndResponsefileForUpdatedUser(Table table) in C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\Steps\UpdateUser_Steps.cs:line 44
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2021-04-30 11:44:19.628 +05:30 [ERR] Automation.API.Framework
+2021-04-30 11:44:19.665 +05:30 [INF] [scenario completed]
+2021-04-30 11:44:19.665 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:44:19.683 +05:30 [INF] [Feature completed] 
+2021-04-30 11:44:19.683 +05:30 [INF] ==============================================================
+2021-04-30 11:44:19.692 +05:30 [INF] 
+******************************************
+2021-04-30 11:44:19.692 +05:30 [INF] 
+End of Test Cycle :
+2021-04-30 11:47:38.076 +05:30 [INF] ******************************************
+2021-04-30 11:47:38.106 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:47:38.115 +05:30 [INF] [Feature] : Update user api call
+2021-04-30 11:47:38.142 +05:30 [INF] [Scenario Start] : Update a User Successfully
+2021-04-30 11:47:38.163 +05:30 [INF] [Step] : I have entered email, password to update and made a put call
+2021-04-30 11:47:38.993 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for updated user
+2021-04-30 11:47:39.075 +05:30 [ERR] NUnit.Framework.AssertionException: Name is not approriate in response
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.Fail(String message, Object[] args)
+   at NUnit.Framework.Assert.Fail(String message)
+   at Automation.API.Framework.Steps.UpdateUser_Steps.ThenIShouldRecieveValidStatuscodeAndResponsefileForUpdatedUser(Table table) in C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\Steps\UpdateUser_Steps.cs:line 45
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2021-04-30 11:47:39.075 +05:30 [ERR] nunit.framework
+2021-04-30 11:47:39.110 +05:30 [INF] [scenario completed]
+2021-04-30 11:47:39.110 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:47:39.129 +05:30 [INF] [Feature completed] 
+2021-04-30 11:47:39.129 +05:30 [INF] ==============================================================
+2021-04-30 11:47:39.138 +05:30 [INF] 
+******************************************
+2021-04-30 11:47:39.138 +05:30 [INF] 
+End of Test Cycle :
+2021-04-30 11:48:24.262 +05:30 [INF] ******************************************
+2021-04-30 11:48:24.297 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:48:24.305 +05:30 [INF] [Feature] : Delete API Call
+2021-04-30 11:48:24.332 +05:30 [INF] [Scenario Start] : Delete a User Successfully
+2021-04-30 11:48:24.355 +05:30 [INF] [Step] : I have made a get call using id to delete a user
+2021-04-30 11:48:25.019 +05:30 [INF] [Step] : I should recieve valid statuscode as below
+2021-04-30 11:48:25.058 +05:30 [INF] [scenario completed]
+2021-04-30 11:48:25.058 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:48:25.109 +05:30 [INF] [Feature completed] 
+2021-04-30 11:48:25.109 +05:30 [INF] ==============================================================
+2021-04-30 11:48:25.109 +05:30 [INF] [Feature] : Get user calls
+2021-04-30 11:48:25.111 +05:30 [INF] [Scenario Start] : Get List of users
+2021-04-30 11:48:25.111 +05:30 [INF] [Step] : I have made a get call to list all users
+2021-04-30 11:48:25.300 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for all user
+2021-04-30 11:48:25.313 +05:30 [INF] [scenario completed]
+2021-04-30 11:48:25.313 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:48:25.316 +05:30 [INF] [Scenario Start] : Get single user
+2021-04-30 11:48:25.316 +05:30 [INF] [Step] : I have made a get call using id
+2021-04-30 11:48:25.803 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for requested user
+2021-04-30 11:48:25.814 +05:30 [INF] [scenario completed]
+2021-04-30 11:48:25.814 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:48:25.816 +05:30 [INF] [Feature completed] 
+2021-04-30 11:48:25.816 +05:30 [INF] ==============================================================
+2021-04-30 11:48:25.816 +05:30 [INF] [Feature] : Register and Create calls
+2021-04-30 11:48:25.818 +05:30 [INF] [Scenario Start] : Create a User
+2021-04-30 11:48:25.819 +05:30 [INF] [Step] : I have entered name, job for new user
+2021-04-30 11:48:25.821 +05:30 [INF] [Step] : made a post call to create user
+2021-04-30 11:48:26.299 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for new user
+2021-04-30 11:48:26.306 +05:30 [INF] [scenario completed]
+2021-04-30 11:48:26.306 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:48:26.312 +05:30 [INF] [Scenario Start] : Register a User Successfully
+2021-04-30 11:48:26.313 +05:30 [INF] [Step] : I have entered email, password to register
+2021-04-30 11:48:26.318 +05:30 [INF] [Step] : made a post call to register user
+2021-04-30 11:48:27.285 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for registered user
+2021-04-30 11:48:27.357 +05:30 [ERR] NUnit.Framework.AssertionException:   Status code is not as expected
+  Expected: 200
+  But was:  400
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at Automation.API.Framework.Steps.Register_Create.ThenIShouldRecieveValidStatuscodeAndResponsefileForRegisteredUser(Table table) in C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\Steps\Register_Create.cs:line 39
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2021-04-30 11:48:27.357 +05:30 [ERR] nunit.framework
+2021-04-30 11:48:27.390 +05:30 [INF] [scenario completed]
+2021-04-30 11:48:27.391 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:48:27.393 +05:30 [INF] [Feature completed] 
+2021-04-30 11:48:27.393 +05:30 [INF] ==============================================================
+2021-04-30 11:48:27.393 +05:30 [INF] [Feature] : Update user api call
+2021-04-30 11:48:27.395 +05:30 [INF] [Scenario Start] : Update a User Successfully
+2021-04-30 11:48:27.396 +05:30 [INF] [Step] : I have entered email, password to update and made a put call
+2021-04-30 11:48:27.877 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for updated user
+2021-04-30 11:48:27.884 +05:30 [INF] [scenario completed]
+2021-04-30 11:48:27.884 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:48:27.896 +05:30 [INF] [Feature completed] 
+2021-04-30 11:48:27.896 +05:30 [INF] ==============================================================
+2021-04-30 11:48:27.915 +05:30 [INF] 
+******************************************
+2021-04-30 11:48:27.915 +05:30 [INF] 
+End of Test Cycle :
+2021-04-30 11:59:48.842 +05:30 [INF] ******************************************
+2021-04-30 11:59:48.874 +05:30 [INF] 
+New Test Cycle :
+2021-04-30 11:59:48.881 +05:30 [INF] [Feature] : Delete API Call
+2021-04-30 11:59:48.908 +05:30 [INF] [Scenario Start] : Delete a User Successfully
+2021-04-30 11:59:48.928 +05:30 [INF] [Step] : I have made a get call using id to delete a user
+2021-04-30 11:59:49.740 +05:30 [INF] [Step] : I should recieve valid statuscode as below
+2021-04-30 11:59:49.769 +05:30 [INF] [scenario completed]
+2021-04-30 11:59:49.769 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:59:49.784 +05:30 [INF] [Feature completed] 
+2021-04-30 11:59:49.785 +05:30 [INF] ==============================================================
+2021-04-30 11:59:49.785 +05:30 [INF] [Feature] : Get user calls
+2021-04-30 11:59:49.787 +05:30 [INF] [Scenario Start] : Get List of users
+2021-04-30 11:59:49.787 +05:30 [INF] [Step] : I have made a get call to list all users
+2021-04-30 11:59:49.961 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for all user
+2021-04-30 11:59:49.985 +05:30 [INF] [scenario completed]
+2021-04-30 11:59:49.986 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:59:49.989 +05:30 [INF] [Scenario Start] : Get single user
+2021-04-30 11:59:49.989 +05:30 [INF] [Step] : I have made a get call using id
+2021-04-30 11:59:50.098 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for requested user
+2021-04-30 11:59:50.104 +05:30 [INF] [scenario completed]
+2021-04-30 11:59:50.104 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:59:50.106 +05:30 [INF] [Feature completed] 
+2021-04-30 11:59:50.106 +05:30 [INF] ==============================================================
+2021-04-30 11:59:50.106 +05:30 [INF] [Feature] : Register and Create calls
+2021-04-30 11:59:50.113 +05:30 [INF] [Scenario Start] : Create a User
+2021-04-30 11:59:50.113 +05:30 [INF] [Step] : I have entered name, job for new user
+2021-04-30 11:59:50.117 +05:30 [INF] [Step] : made a post call to create user
+2021-04-30 11:59:50.527 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for new user
+2021-04-30 11:59:50.535 +05:30 [INF] [scenario completed]
+2021-04-30 11:59:50.535 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:59:50.539 +05:30 [INF] [Scenario Start] : Register a User Successfully
+2021-04-30 11:59:50.540 +05:30 [INF] [Step] : I have entered email, password to register
+2021-04-30 11:59:50.542 +05:30 [INF] [Step] : made a post call to register user
+2021-04-30 11:59:51.349 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for registered user
+2021-04-30 11:59:51.442 +05:30 [ERR] NUnit.Framework.AssertionException:   Status code is not as expected
+  Expected: 200
+  But was:  400
+
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at Automation.API.Framework.Steps.Register_Create.ThenIShouldRecieveValidStatuscodeAndResponsefileForRegisteredUser(Table table) in C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\Steps\Register_Create.cs:line 39
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2021-04-30 11:59:51.442 +05:30 [ERR] nunit.framework
+2021-04-30 11:59:51.470 +05:30 [INF] [scenario completed]
+2021-04-30 11:59:51.470 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:59:51.472 +05:30 [INF] [Feature completed] 
+2021-04-30 11:59:51.472 +05:30 [INF] ==============================================================
+2021-04-30 11:59:51.472 +05:30 [INF] [Feature] : Update user api call
+2021-04-30 11:59:51.474 +05:30 [INF] [Scenario Start] : Update a User Successfully
+2021-04-30 11:59:51.474 +05:30 [INF] [Step] : I have entered email, password to update and made a put call
+2021-04-30 11:59:51.847 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for updated user
+2021-04-30 11:59:51.849 +05:30 [INF] [scenario completed]
+2021-04-30 11:59:51.849 +05:30 [INF] ------------------------------------------------------------
+2021-04-30 11:59:51.852 +05:30 [INF] [Feature completed] 
+2021-04-30 11:59:51.852 +05:30 [INF] ==============================================================
+2021-04-30 11:59:51.862 +05:30 [INF] 
+******************************************
+2021-04-30 11:59:51.862 +05:30 [INF] 
+End of Test Cycle :

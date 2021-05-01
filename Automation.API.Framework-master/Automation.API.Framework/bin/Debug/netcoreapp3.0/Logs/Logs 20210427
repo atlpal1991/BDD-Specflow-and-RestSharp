@@ -1,0 +1,32 @@
+2021-04-27 01:04:34.452 +05:30 [INF] ******************************************
+2021-04-27 01:04:34.494 +05:30 [INF] 
+New Test Cycle :
+2021-04-27 01:04:34.503 +05:30 [INF] [Feature] : Sample
+2021-04-27 01:04:36.850 +05:30 [INF] [Scenario Start] : Create a User
+2021-04-27 01:04:38.076 +05:30 [INF] [Step] : I have entered name, job for new user
+2021-04-27 01:04:39.144 +05:30 [INF] [Step] : made a post call to create user
+2021-04-27 01:04:44.994 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for new user
+2021-04-27 01:38:05.923 +05:30 [INF] ******************************************
+2021-04-27 01:38:05.989 +05:30 [INF] 
+New Test Cycle :
+2021-04-27 01:38:06.004 +05:30 [INF] [Feature] : Sample
+2021-04-27 01:38:08.053 +05:30 [INF] [Scenario Start] : Create a User
+2021-04-27 01:38:08.895 +05:30 [INF] [Step] : I have entered name, job for new user
+2021-04-27 01:38:10.160 +05:30 [INF] [Step] : made a post call to create user
+2021-04-27 01:38:15.427 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for new user
+2021-04-27 01:46:43.453 +05:30 [INF] ******************************************
+2021-04-27 01:46:43.490 +05:30 [INF] 
+New Test Cycle :
+2021-04-27 01:46:43.501 +05:30 [INF] [Feature] : Sample
+2021-04-27 01:46:45.358 +05:30 [INF] [Scenario Start] : Create a User
+2021-04-27 01:46:45.853 +05:30 [INF] [Step] : I have entered name, job for new user
+2021-04-27 01:46:46.258 +05:30 [INF] [Step] : made a post call to create user
+2021-04-27 01:46:51.625 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for new user
+2021-04-27 01:51:26.385 +05:30 [INF] ******************************************
+2021-04-27 01:51:26.413 +05:30 [INF] 
+New Test Cycle :
+2021-04-27 01:51:26.421 +05:30 [INF] [Feature] : Sample
+2021-04-27 01:51:27.772 +05:30 [INF] [Scenario Start] : Create a User
+2021-04-27 01:51:28.290 +05:30 [INF] [Step] : I have entered name, job for new user
+2021-04-27 01:51:28.638 +05:30 [INF] [Step] : made a post call to create user
+2021-04-27 01:51:33.165 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for new user

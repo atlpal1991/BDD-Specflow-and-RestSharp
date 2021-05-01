@@ -1,0 +1,23 @@
+{
+  "Environment": "SysTest",
+
+  //Dev
+  //SysTest
+  //UAT
+  //Staging
+
+  "baseURLDev": "",
+  "baseURLSysTest": "https://reqres.in/",
+  "baseURLUAT": "",
+  "baseURLPreStaging": "",
+
+  "DevDB": "",
+  "SysTestDB": "",
+  "UATDB": "",
+  "PreStagingDB": "",
+
+  "tokenURLDev": "",
+  "tokenURLSysTest": "",
+  "tokenURLUAT": "",
+  "tokenURLPreStaging": ""
+}

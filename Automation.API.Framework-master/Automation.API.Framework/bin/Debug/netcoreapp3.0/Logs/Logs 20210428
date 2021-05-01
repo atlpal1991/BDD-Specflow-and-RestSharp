@@ -1,0 +1,333 @@
+2021-04-28 03:04:15.339 +05:30 [INF] ******************************************
+2021-04-28 03:04:15.366 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:04:15.374 +05:30 [INF] [Feature] : Sample api calls for get single user and get all users
+2021-04-28 03:04:15.406 +05:30 [INF] [Scenario Start] : Get List of users
+2021-04-28 03:04:15.430 +05:30 [INF] [Step] : I have made a get call to list all users
+2021-04-28 03:04:16.491 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for all user
+2021-04-28 03:05:45.512 +05:30 [INF] ******************************************
+2021-04-28 03:05:45.537 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:05:45.548 +05:30 [INF] [Feature] : Sample api calls for get single user and get all users
+2021-04-28 03:05:45.573 +05:30 [INF] [Scenario Start] : Get List of users
+2021-04-28 03:05:45.585 +05:30 [INF] [Step] : I have made a get call to list all users
+2021-04-28 03:05:45.911 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for all user
+2021-04-28 03:06:09.747 +05:30 [INF] ******************************************
+2021-04-28 03:06:09.785 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:06:09.792 +05:30 [INF] [Feature] : Sample api calls for get single user and get all users
+2021-04-28 03:06:09.824 +05:30 [INF] [Scenario Start] : Get single user
+2021-04-28 03:06:11.492 +05:30 [INF] [Step] : I have made a get call using id
+2021-04-28 03:06:13.737 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for requested user
+2021-04-28 03:09:48.122 +05:30 [INF] ******************************************
+2021-04-28 03:09:48.151 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:09:48.160 +05:30 [INF] [Feature] : Sample api calls for get single user and get all users
+2021-04-28 03:09:48.191 +05:30 [INF] [Scenario Start] : Get List of users
+2021-04-28 03:09:48.212 +05:30 [INF] [Step] : I have made a get call to list all users
+2021-04-28 03:09:48.801 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for all user
+2021-04-28 03:14:05.517 +05:30 [INF] ******************************************
+2021-04-28 03:14:05.548 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:14:05.556 +05:30 [INF] [Feature] : Sample
+2021-04-28 03:14:05.585 +05:30 [INF] [Scenario Start] : Create a User
+2021-04-28 03:14:05.607 +05:30 [INF] [Step] : I have entered name, job for new user
+2021-04-28 03:14:05.634 +05:30 [INF] [Step] : made a post call to create user
+2021-04-28 03:14:06.202 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for new user
+2021-04-28 03:14:06.269 +05:30 [INF] [scenario completed]
+2021-04-28 03:14:06.269 +05:30 [INF] ------------------------------------------------------------
+2021-04-28 03:14:06.287 +05:30 [INF] [Feature completed] 
+2021-04-28 03:14:06.287 +05:30 [INF] ==============================================================
+2021-04-28 03:14:06.297 +05:30 [INF] 
+******************************************
+2021-04-28 03:14:06.297 +05:30 [INF] 
+End of Test Cycle :
+2021-04-28 03:14:15.247 +05:30 [INF] ******************************************
+2021-04-28 03:14:15.276 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:14:15.284 +05:30 [INF] [Feature] : Sample
+2021-04-28 03:14:15.315 +05:30 [INF] [Scenario Start] : Register a User Successfully
+2021-04-28 03:14:15.347 +05:30 [INF] [Step] : I have entered email, password to register
+2021-04-28 03:14:15.383 +05:30 [INF] [Step] : made a post call to register user
+2021-04-28 03:14:15.931 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for registered user
+2021-04-28 03:14:15.984 +05:30 [ERR] System.InvalidCastException: Unable to cast object of type 'System.String' to type 'RestSharp.IRestResponse'.
+   at Automation.API.Framework.Steps.Register_Create.ThenIShouldRecieveValidStatuscodeAndResponsefileForRegisteredUser(Table table) in C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\Steps\Register_Create.cs:line 37
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2021-04-28 03:14:15.984 +05:30 [ERR] Automation.API.Framework
+2021-04-28 03:14:16.020 +05:30 [INF] [scenario completed]
+2021-04-28 03:14:16.020 +05:30 [INF] ------------------------------------------------------------
+2021-04-28 03:14:16.039 +05:30 [INF] [Feature completed] 
+2021-04-28 03:14:16.039 +05:30 [INF] ==============================================================
+2021-04-28 03:14:16.055 +05:30 [INF] 
+******************************************
+2021-04-28 03:14:16.055 +05:30 [INF] 
+End of Test Cycle :
+2021-04-28 03:18:12.905 +05:30 [INF] ******************************************
+2021-04-28 03:18:12.937 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:18:12.944 +05:30 [INF] [Feature] : Sample
+2021-04-28 03:18:12.972 +05:30 [INF] [Scenario Start] : Create a User
+2021-04-28 03:18:12.993 +05:30 [INF] [Step] : I have entered name, job for new user
+2021-04-28 03:18:13.021 +05:30 [INF] [Step] : made a post call to create user
+2021-04-28 03:18:13.858 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for new user
+2021-04-28 03:18:13.894 +05:30 [INF] [scenario completed]
+2021-04-28 03:18:13.894 +05:30 [INF] ------------------------------------------------------------
+2021-04-28 03:18:13.912 +05:30 [INF] [Feature completed] 
+2021-04-28 03:18:13.912 +05:30 [INF] ==============================================================
+2021-04-28 03:18:13.922 +05:30 [INF] 
+******************************************
+2021-04-28 03:18:13.922 +05:30 [INF] 
+End of Test Cycle :
+2021-04-28 03:18:49.358 +05:30 [INF] ******************************************
+2021-04-28 03:18:49.394 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:18:49.403 +05:30 [INF] [Feature] : Sample
+2021-04-28 03:18:51.665 +05:30 [INF] [Scenario Start] : Create a User
+2021-04-28 03:18:52.680 +05:30 [INF] [Step] : I have entered name, job for new user
+2021-04-28 03:18:54.111 +05:30 [INF] [Step] : made a post call to create user
+2021-04-28 03:18:58.132 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for new user
+2021-04-28 03:21:01.757 +05:30 [INF] ******************************************
+2021-04-28 03:21:01.794 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:21:01.802 +05:30 [INF] [Feature] : Sample
+2021-04-28 03:21:03.478 +05:30 [INF] [Scenario Start] : Register a User Successfully
+2021-04-28 03:21:04.313 +05:30 [INF] [Step] : I have entered email, password to register
+2021-04-28 03:21:05.169 +05:30 [INF] [Step] : made a post call to register user
+2021-04-28 03:21:12.055 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for registered user
+2021-04-28 03:24:03.433 +05:30 [INF] ******************************************
+2021-04-28 03:24:03.473 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:24:03.483 +05:30 [INF] [Feature] : Sample
+2021-04-28 03:24:06.932 +05:30 [INF] [Scenario Start] : Register a User Successfully
+2021-04-28 03:24:07.655 +05:30 [INF] [Step] : I have entered email, password to register
+2021-04-28 03:24:08.359 +05:30 [INF] [Step] : made a post call to register user
+2021-04-28 03:24:14.522 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for registered user
+2021-04-28 03:24:57.516 +05:30 [INF] ******************************************
+2021-04-28 03:24:57.561 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:24:57.573 +05:30 [INF] [Feature] : Sample
+2021-04-28 03:25:00.403 +05:30 [INF] [Scenario Start] : Register a User Successfully
+2021-04-28 03:25:01.823 +05:30 [INF] [Step] : I have entered email, password to register
+2021-04-28 03:25:04.927 +05:30 [INF] [Step] : made a post call to register user
+2021-04-28 03:28:04.696 +05:30 [INF] ******************************************
+2021-04-28 03:28:04.732 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:28:04.742 +05:30 [INF] [Feature] : Sample api calls for get single user and get all users
+2021-04-28 03:28:04.773 +05:30 [INF] [Scenario Start] : Get single user
+2021-04-28 03:28:06.321 +05:30 [INF] [Step] : I have made a get call using id
+2021-04-28 03:28:14.556 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for requested user
+2021-04-28 03:28:42.159 +05:30 [INF] ******************************************
+2021-04-28 03:28:42.203 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:28:42.213 +05:30 [INF] [Feature] : Sample api calls for get single user and get all users
+2021-04-28 03:28:42.259 +05:30 [INF] [Scenario Start] : Get single user
+2021-04-28 03:28:45.914 +05:30 [INF] [Step] : I have made a get call using id
+2021-04-28 03:29:51.131 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for requested user
+2021-04-28 03:30:20.419 +05:30 [ERR] System.InvalidCastException: Unable to cast object of type 'System.String' to type 'RestSharp.IRestResponse'.
+   at Automation.API.Framework.Steps.GetUsers_SingleOrList.ThenIShouldRecieveValidStatuscodeAndResponsefileForRequestedUser(Table table) in C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\Steps\GetUsers_SingleOrList.cs:line 32
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2021-04-28 03:30:20.419 +05:30 [ERR] Automation.API.Framework
+2021-04-28 03:30:22.728 +05:30 [INF] [scenario completed]
+2021-04-28 03:30:22.728 +05:30 [INF] ------------------------------------------------------------
+2021-04-28 03:30:22.750 +05:30 [INF] [Feature completed] 
+2021-04-28 03:30:22.750 +05:30 [INF] ==============================================================
+2021-04-28 03:30:22.760 +05:30 [INF] 
+******************************************
+2021-04-28 03:30:22.760 +05:30 [INF] 
+End of Test Cycle :
+2021-04-28 03:40:25.243 +05:30 [INF] ******************************************
+2021-04-28 03:40:25.287 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:40:25.296 +05:30 [INF] [Feature] : Sample api calls for get single user and get all users
+2021-04-28 03:40:25.327 +05:30 [INF] [Scenario Start] : Get single user
+2021-04-28 03:40:27.558 +05:30 [INF] [Step] : I have made a get call using id
+2021-04-28 03:40:28.843 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for requested user
+2021-04-28 03:40:28.916 +05:30 [INF] [scenario completed]
+2021-04-28 03:40:28.916 +05:30 [INF] ------------------------------------------------------------
+2021-04-28 03:40:28.954 +05:30 [INF] [Feature completed] 
+2021-04-28 03:40:28.954 +05:30 [INF] ==============================================================
+2021-04-28 03:40:32.294 +05:30 [INF] 
+******************************************
+2021-04-28 03:40:32.294 +05:30 [INF] 
+End of Test Cycle :
+2021-04-28 03:43:34.580 +05:30 [INF] ******************************************
+2021-04-28 03:43:34.615 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:43:34.624 +05:30 [INF] [Feature] : Sample api calls for get single user and get all users
+2021-04-28 03:43:34.655 +05:30 [INF] [Scenario Start] : Get List of users
+2021-04-28 03:43:34.673 +05:30 [INF] [Step] : I have made a get call to list all users
+2021-04-28 03:43:35.585 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for all user
+2021-04-28 03:44:55.367 +05:30 [INF] ******************************************
+2021-04-28 03:44:55.408 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:44:55.420 +05:30 [INF] [Feature] : Sample api calls for get single user and get all users
+2021-04-28 03:45:04.716 +05:30 [INF] [Scenario Start] : Get List of users
+2021-04-28 03:45:09.584 +05:30 [INF] [Step] : I have made a get call to list all users
+2021-04-28 03:47:01.176 +05:30 [INF] ******************************************
+2021-04-28 03:47:01.206 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:47:01.215 +05:30 [INF] [Feature] : Sample api calls for get single user and get all users
+2021-04-28 03:47:04.238 +05:30 [INF] [Scenario Start] : Get List of users
+2021-04-28 03:47:06.473 +05:30 [INF] [Step] : I have made a get call to list all users
+2021-04-28 03:47:10.555 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for all user
+2021-04-28 03:48:51.869 +05:30 [INF] ******************************************
+2021-04-28 03:48:51.912 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:48:51.927 +05:30 [INF] [Feature] : Sample api calls for get single user and get all users
+2021-04-28 03:48:51.970 +05:30 [INF] [Scenario Start] : Get List of users
+2021-04-28 03:48:51.993 +05:30 [INF] [Step] : I have made a get call to list all users
+2021-04-28 03:48:52.409 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for all user
+2021-04-28 03:48:52.488 +05:30 [ERR] System.IO.FileNotFoundException: Could not find file 'C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\ListUSers.json'.
+File name: 'C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\ListUSers.json'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at Automation.API.Framework.Steps.GetUsers_SingleOrList.ThenIShouldRecieveValidStatuscodeAndResponsefileForAllUser(Table table) in C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\Steps\GetUsers_SingleOrList.cs:line 66
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2021-04-28 03:48:52.488 +05:30 [ERR] System.Private.CoreLib
+2021-04-28 03:48:52.526 +05:30 [INF] [scenario completed]
+2021-04-28 03:48:52.526 +05:30 [INF] ------------------------------------------------------------
+2021-04-28 03:48:52.545 +05:30 [INF] [Feature completed] 
+2021-04-28 03:48:52.545 +05:30 [INF] ==============================================================
+2021-04-28 03:48:52.554 +05:30 [INF] 
+******************************************
+2021-04-28 03:48:52.554 +05:30 [INF] 
+End of Test Cycle :
+2021-04-28 03:49:50.299 +05:30 [INF] ******************************************
+2021-04-28 03:49:50.327 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:49:50.335 +05:30 [INF] [Feature] : Sample api calls for get single user and get all users
+2021-04-28 03:49:50.363 +05:30 [INF] [Scenario Start] : Get List of users
+2021-04-28 03:49:50.377 +05:30 [INF] [Step] : I have made a get call to list all users
+2021-04-28 03:49:50.671 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for all user
+2021-04-28 03:49:50.750 +05:30 [ERR] System.IO.FileNotFoundException: Could not find file 'C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\bin\ListUSers.json'.
+File name: 'C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\bin\ListUSers.json'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at Automation.API.Framework.Steps.GetUsers_SingleOrList.ThenIShouldRecieveValidStatuscodeAndResponsefileForAllUser(Table table) in C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\Steps\GetUsers_SingleOrList.cs:line 66
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2021-04-28 03:49:50.750 +05:30 [ERR] System.Private.CoreLib
+2021-04-28 03:49:50.786 +05:30 [INF] [scenario completed]
+2021-04-28 03:49:50.786 +05:30 [INF] ------------------------------------------------------------
+2021-04-28 03:49:50.804 +05:30 [INF] [Feature completed] 
+2021-04-28 03:49:50.804 +05:30 [INF] ==============================================================
+2021-04-28 03:49:50.813 +05:30 [INF] 
+******************************************
+2021-04-28 03:49:50.813 +05:30 [INF] 
+End of Test Cycle :
+2021-04-28 03:51:41.226 +05:30 [INF] ******************************************
+2021-04-28 03:51:41.257 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:51:41.266 +05:30 [INF] [Feature] : Sample api calls for get single user and get all users
+2021-04-28 03:51:41.294 +05:30 [INF] [Scenario Start] : Get List of users
+2021-04-28 03:51:41.308 +05:30 [INF] [Step] : I have made a get call to list all users
+2021-04-28 03:51:41.612 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for all user
+2021-04-28 03:51:41.673 +05:30 [INF] [scenario completed]
+2021-04-28 03:51:41.673 +05:30 [INF] ------------------------------------------------------------
+2021-04-28 03:51:41.692 +05:30 [INF] [Feature completed] 
+2021-04-28 03:51:41.692 +05:30 [INF] ==============================================================
+2021-04-28 03:51:41.702 +05:30 [INF] 
+******************************************
+2021-04-28 03:51:41.702 +05:30 [INF] 
+End of Test Cycle :
+2021-04-28 03:51:54.900 +05:30 [INF] ******************************************
+2021-04-28 03:51:54.943 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:51:54.952 +05:30 [INF] [Feature] : Sample api calls for get single user and get all users
+2021-04-28 03:51:59.524 +05:30 [INF] [Scenario Start] : Get List of users
+2021-04-28 03:52:01.115 +05:30 [INF] [Step] : I have made a get call to list all users
+2021-04-28 03:52:04.680 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for all user
+2021-04-28 03:54:19.604 +05:30 [INF] ******************************************
+2021-04-28 03:54:19.653 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:54:19.665 +05:30 [INF] [Feature] : Sample api calls for get single user and get all users
+2021-04-28 03:54:32.120 +05:30 [INF] [Scenario Start] : Get List of users
+2021-04-28 03:54:33.210 +05:30 [INF] [Step] : I have made a get call to list all users
+2021-04-28 03:54:37.238 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for all user
+2021-04-28 03:57:27.934 +05:30 [INF] ******************************************
+2021-04-28 03:57:27.971 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 03:57:27.983 +05:30 [INF] [Feature] : Sample api calls for get single user and get all users
+2021-04-28 03:57:28.025 +05:30 [INF] [Scenario Start] : Get List of users
+2021-04-28 03:57:28.039 +05:30 [INF] [Step] : I have made a get call to list all users
+2021-04-28 03:57:28.359 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for all user
+2021-04-28 03:57:28.427 +05:30 [INF] [scenario completed]
+2021-04-28 03:57:28.427 +05:30 [INF] ------------------------------------------------------------
+2021-04-28 03:57:28.444 +05:30 [INF] [Scenario Start] : Get single user
+2021-04-28 03:57:28.444 +05:30 [INF] [Step] : I have made a get call using id
+2021-04-28 03:57:28.584 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for requested user
+2021-04-28 03:57:28.592 +05:30 [INF] [scenario completed]
+2021-04-28 03:57:28.593 +05:30 [INF] ------------------------------------------------------------
+2021-04-28 03:57:28.598 +05:30 [INF] [Feature completed] 
+2021-04-28 03:57:28.598 +05:30 [INF] ==============================================================
+2021-04-28 03:57:28.611 +05:30 [INF] 
+******************************************
+2021-04-28 03:57:28.611 +05:30 [INF] 
+End of Test Cycle :
+2021-04-28 04:13:38.764 +05:30 [INF] ******************************************
+2021-04-28 04:13:38.797 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 04:13:38.808 +05:30 [INF] [Feature] : Sample feature to implement Delete API Call
+2021-04-28 04:13:41.576 +05:30 [INF] [Scenario Start] : Delete a User Successfully
+2021-04-28 04:13:42.941 +05:30 [INF] [Step] : I have made a get call using id to delete a user
+2021-04-28 04:13:46.271 +05:30 [INF] [Step] : I should recieve valid statuscode as below
+2021-04-28 04:13:46.428 +05:30 [INF] [scenario completed]
+2021-04-28 04:13:46.428 +05:30 [INF] ------------------------------------------------------------
+2021-04-28 04:13:46.468 +05:30 [INF] [Feature completed] 
+2021-04-28 04:13:46.468 +05:30 [INF] ==============================================================
+2021-04-28 04:13:50.404 +05:30 [INF] 
+******************************************
+2021-04-28 04:13:50.404 +05:30 [INF] 
+End of Test Cycle :
+2021-04-28 04:45:37.922 +05:30 [INF] ******************************************
+2021-04-28 04:45:37.959 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 04:45:37.972 +05:30 [INF] [Feature] : Sample feature to implement put api call
+2021-04-28 04:45:38.020 +05:30 [INF] [Scenario Start] : Update a User Successfully
+2021-04-28 04:45:38.222 +05:30 [INF] [scenario completed]
+2021-04-28 04:45:38.222 +05:30 [INF] ------------------------------------------------------------
+2021-04-28 04:45:38.249 +05:30 [INF] [Feature completed] 
+2021-04-28 04:45:38.249 +05:30 [INF] ==============================================================
+2021-04-28 04:45:38.264 +05:30 [INF] 
+******************************************
+2021-04-28 04:45:38.264 +05:30 [INF] 
+End of Test Cycle :
+2021-04-28 04:46:31.690 +05:30 [INF] ******************************************
+2021-04-28 04:46:31.731 +05:30 [INF] 
+New Test Cycle :
+2021-04-28 04:46:31.741 +05:30 [INF] [Feature] : Sample feature to implement put api call
+2021-04-28 04:46:31.779 +05:30 [INF] [Scenario Start] : Update a User Successfully
+2021-04-28 04:46:31.805 +05:30 [INF] [Step] : I have entered email, password to update and made a put call
+2021-04-28 04:46:32.705 +05:30 [INF] [Step] : I should recieve valid statuscode and responsefile for updated user
+2021-04-28 04:46:32.772 +05:30 [ERR] System.Collections.Generic.KeyNotFoundException: The given key 'response' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Automation.API.Framework.Steps.UpdateUser_Steps.ThenIShouldRecieveValidStatuscodeAndResponsefileForUpdatedUser(Table table) in C:\Users\Dell\Documents\Automation.API.Framework-master\Automation.API.Framework\Steps\UpdateUser_Steps.cs:line 43
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+2021-04-28 04:46:32.773 +05:30 [ERR] System.Private.CoreLib
+2021-04-28 04:46:32.843 +05:30 [INF] [scenario completed]
+2021-04-28 04:46:32.843 +05:30 [INF] ------------------------------------------------------------
+2021-04-28 04:46:32.874 +05:30 [INF] [Feature completed] 
+2021-04-28 04:46:32.874 +05:30 [INF] ==============================================================
+2021-04-28 04:46:32.890 +05:30 [INF] 
+******************************************
+2021-04-28 04:46:32.890 +05:30 [INF] 
+End of Test Cycle :
