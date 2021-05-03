@@ -7,9 +7,13 @@ Reporting  : We have used extent reporting and implementated all the hooks in a 
 
 Folder definitions :
 GherkinFeatures : This folder contains all the feature files.
+
 Steps : This folder contains steps definitions corresponsing to each feature file.
+
 JsonResponses : Here we have stored json response for get calls which are being used to compare with API responses.
+
 Common Calls : This are the methods calling each api.
+
 Common : Any common logic being used across application.
 
 
